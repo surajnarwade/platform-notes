@@ -30,6 +30,7 @@ vault write auth/kubernetes/role/demo \
     ttl=1h
 ```
 
+Note: Use proper policy here which can have access to database stuff in vault
 * Enable this
 
 ```
